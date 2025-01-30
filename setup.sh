@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Prompt for project name
