@@ -60,6 +60,18 @@ pnpm run build && pnpm start
 └── package.json           # Project dependencies & scripts
 ```
 
+## 🔄 Example Query
+
+```graphql
+query {
+  getUser(id: "1") {
+    id
+    name
+    email
+  }
+}
+```
+
 ## ⚙️ Environment Variables
 ```env
 PORT=4000                 # Server port
